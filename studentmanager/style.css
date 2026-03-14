@@ -1,0 +1,61 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(to right,#4facfe,#00f2fe);
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+background:white;
+padding:30px;
+border-radius:10px;
+width:500px;
+text-align:center;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+h1{
+margin-bottom:5px;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th, td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+th{
+background:#4facfe;
+color:white;
+}
+
+tr:hover{
+background:#f5f5f5;
+}
+
+.badge{
+padding:5px 10px;
+border-radius:5px;
+color:white;
+font-weight:bold;
+}
+
+.good{
+background:green;
+}
+
+.average{
+background:orange;
+}
+
+.low{
+background:red;
+}

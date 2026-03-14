@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*NAVBAR*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+.nav-links{
+    display: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.hero{
+    text-align: center;
+    padding: 60px;
+    background: lightgray;
+}
+
+.cards{
+    flex: 1;
+    padding: 20px;
+    background: steelblue;
+    color: white;
+    text-align: center;
+    font: 20px;
+}
+@media(max-width:768px){
+    .navbar{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+}

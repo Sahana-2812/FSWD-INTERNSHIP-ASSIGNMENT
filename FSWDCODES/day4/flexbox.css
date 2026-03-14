@@ -1,0 +1,26 @@
+.box{
+    background: steelblue;
+    color: white;
+    padding: 40px;
+    margin: 10px;
+}
+/*basic flex
+.container{
+    display: flex;
+}
+*/
+/*flex-direction*/
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*align items - stretch , centre,flex_start,flex-end*/
+.container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
